@@ -8,10 +8,10 @@ class Branch {
 
     }
 
-    Branch(String addressInstruction, String addressTarget, taken) {
-        self.addressInstruction = addressInstruction;
-        self.addressTarget = addressTarget;
-        self.taken = taken;
+    Branch(String addressInstruction, String addressTarget, int taken) {
+        this.addressInstruction = addressInstruction;
+        this.addressTarget = addressTarget;
+        this.taken = taken;
     }
 
     public String getAddressInstruction() {
