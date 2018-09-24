@@ -4,10 +4,6 @@ class Branch {
     private String addressTarget;
     private int taken;
 
-    Branch() {
-
-    }
-
     Branch(String addressInstruction, String addressTarget, int taken) {
         this.addressInstruction = addressInstruction;
         this.addressTarget = addressTarget;
